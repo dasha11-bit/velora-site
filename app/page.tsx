@@ -1,76 +1,48 @@
 export default function Home() {
   return (
-    <main
-      style={{
-        display: "flex",
-        height: "100vh",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-        fontFamily: "Arial",
-        backgroundColor: "#111111",
-        color: "white",
-        textAlign: "center",
-        padding: "20px",
-      }}
-    >
-      <h1
-        style={{
-          fontSize: "72px",
-          marginBottom: "12px",
-          fontWeight: "700",
-          letterSpacing: "2px",
-          color: "white",
-        }}
-      >
-        Velora AI
-      </h1>
+    <main style={{
+      backgroundColor: "#0a0a0a",
+      color: "#fff",
+      height: "100vh",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      textAlign: "center",
+      fontFamily: "Helvetica, sans-serif"
+    }}>
+      <div>
+        <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
+          Velora AI
+        </h1>
 
-      <p
-        style={{
-          fontSize: "22px",
-          color: "#cfcfcf",
-          maxWidth: "600px",
-          lineHeight: "1.6",
-          marginBottom: "30px",
-        }}
-      >
-        Luxury automation for modern business. Build, scale, and operate with
-        AI-powered precision.
-      </p>
+        <p style={{ opacity: 0.7, marginBottom: "2rem" }}>
+          Luxury automation systems for modern businesses.
+        </p>
 
-      <div style={{ display: "flex", gap: "16px", marginTop: "10px" }}>
-        <button
-          style={{
-            padding: "14px 28px",
-            background: "linear-gradient(to right, #ffffff, #dcdcdc)",
-            color: "#111",
-            border: "none",
-            borderRadius: "999px",
-            fontWeight: "700",
-            fontSize: "16px",
-            cursor: "pointer",
-          }}
-        >
-          Get Started
-        </button>
-
-        <button
-          style={{
-            padding: "14px 28px",
-            background: "transparent",
-            color: "white",
-            border: "1px solid #666",
-            borderRadius: "999px",
-            fontWeight: "600",
-            fontSize: "16px",
-            cursor: "pointer",
-          }}
-        >
+        <button style={{
+          <button
+  onClick={() => window.location.href = "https://calendly.com"}
+  style={{
+    padding: "12px 24px",
+    borderRadius: "999px",
+    border: "none",
+    background: "#fff",
+    color: "#000",
+    marginRight: "10px"
+  }}
+>
+  Get Started
+</button>
+        <button style={{
+          padding: "12px 24px",
+          borderRadius: "999px",
+          border: "1px solid #fff",
+          background: "transparent",
+          color: "#fff"
+        }}>
           Explore
         </button>
       </div>
     </main>
   );
 }
-
