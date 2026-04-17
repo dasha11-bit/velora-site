@@ -19,30 +19,15 @@ export default function Home() {
           Luxury automation systems for modern businesses.
         </p>
 
-        <button style={{
-          <button
-  onClick={() => window.location.href = "https://calendly.com"}
-  style={{
-    padding: "12px 24px",
-    borderRadius: "999px",
-    border: "none",
-    background: "#fff",
-    color: "#000",
-    marginRight: "10px"
-  }}
->
-  Get Started
-</button>
-        <button style={{
-          padding: "12px 24px",
-          borderRadius: "999px",
-          border: "1px solid #fff",
-          background: "transparent",
-          color: "#fff"
-        }}>
-          Explore
-        </button>
-      </div>
-    </main>
-  );
-}
+        <button
+           onClick={() => window.location.href = "https://calendly.com"}
+           style={{
+             padding: "12px 24px",
+             borderRadius: "999px",
+             border: "none",
+             background: "#fff",
+             color: "#000",
+             marginRight: "10px"
+           }}>
+           Get Started
+         </button>
