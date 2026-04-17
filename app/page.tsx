@@ -19,16 +19,4 @@ export default function Home() {
           Luxury automation systems for modern businesses.
         </p>
 
-           <button
-  onClick={() => window.location.href = "https://calendly.com"}
-  style={{
-    padding: "12px 24px",
-    borderRadius: "999px",
-    border: "none",
-    background: "#fff",
-    color: "#000",
-    marginRight: "10px"
-  }}
->
-  Get Started
-</button>
+<a href="https://calendly.com" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", padding: "12px 24px", borderRadius: "999px", background: "#fff", color: "#000", marginRight: "10px", textDecoration: "none" }}>Get Started</a>
