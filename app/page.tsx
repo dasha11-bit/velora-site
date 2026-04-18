@@ -21,19 +21,21 @@ export default function Home() {
           Luxury automation systems for modern businesses.
         </p>
 
-        <button
-          onClick={() => (window.location.href = "/dashboard")}
+        <a
+          href="https://calendly.com"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{
+            display: "inline-block",
             padding: "12px 24px",
             borderRadius: "999px",
-            border: "none",
             background: "#fff",
             color: "#000",
-            cursor: "pointer",
+            textDecoration: "none",
           }}
         >
-          Get Started
-        </button>
+          Get Started →
+        </a>
       </div>
     </main>
   );
