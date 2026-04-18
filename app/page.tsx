@@ -2,8 +2,8 @@ export default function Home() {
   return (
     <main
       style={{
-        backgroundColor: "#0a0a0a",
-        color: "#fff",
+        backgroundColor: "white",
+        color: "black",
         height: "100vh",
         display: "flex",
         alignItems: "center",
