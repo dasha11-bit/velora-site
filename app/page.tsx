@@ -2,14 +2,14 @@ export default function Home() {
   return (
     <main
       style={{
-        backgroundColor: "white",
-        color: "black",
-        height: "100vh",
+        backgroundColor: "#0a0a0a",
+        color: "#fff",
+        minHeight: "100vh",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         textAlign: "center",
-        fontFamily: "Helvetica, sans-serif"
+        fontFamily: "Helvetica, sans-serif",
       }}
     >
       <div>
@@ -31,7 +31,7 @@ export default function Home() {
             color: "black",
             textDecoration: "none",
             border: "1px solid black",
-            cursor: "pointer"
+            cursor: "pointer",
           }}
         >
           Get Started →
