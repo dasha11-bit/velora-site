@@ -27,8 +27,8 @@ export default function Home() {
             padding: "12px 24px",
             borderRadius: "999px",
             border: "none",
-            background: "#fff",
-            color: "#000",
+            background: "white",
+            color: "black",
             cursor: "pointer"
           }}
         >
