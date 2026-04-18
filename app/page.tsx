@@ -21,19 +21,21 @@ export default function Home() {
           Luxury automation systems for modern businesses.
         </p>
 
-        <button
-          onClick={() => (window.location.href = "/book")}
+        <a
+          href="/book"
           style={{
+            display: "inline-block",
             padding: "12px 24px",
             borderRadius: "999px",
-            border: "none",
-            background: "white",
+            backgroundColor: "white",
             color: "black",
+            textDecoration: "none",
+            border: "1px solid black",
             cursor: "pointer"
           }}
         >
-          Get Started ?
-        </button>
+          Get Started →
+        </a>
       </div>
     </main>
   );
