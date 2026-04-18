@@ -14,7 +14,7 @@ export default function Home() {
     >
       <div>
         <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
-          Velora AI FINAL
+          Velora AI
         </h1>
 
         <p style={{ opacity: 0.7, marginBottom: "2rem" }}>
@@ -32,7 +32,7 @@ export default function Home() {
             cursor: "pointer"
           }}
         >
-          Get Started →
+          Get Started ?
         </button>
       </div>
     </main>
