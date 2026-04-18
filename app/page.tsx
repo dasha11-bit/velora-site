@@ -14,7 +14,7 @@ export default function Home() {
     >
       <div>
         <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
-          Velora AI LIVE
+          Velora AI FINAL
         </h1>
 
         <p style={{ opacity: 0.7, marginBottom: "2rem" }}>
