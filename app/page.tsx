@@ -22,7 +22,9 @@ export default function Home() {
         </p>
 
         <a
-          href="/book"
+          href="https://calendly.com/veloraai"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{
             display: "inline-block",
             padding: "12px 24px",
