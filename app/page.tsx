@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main
       style={{
-        background: "radial-gradient(circle at center, #111 0%, #000 100%)",
+        background: "radial-gradient(circle at top, #161616 0%, #050505 70%)",
         color: "#fff",
         minHeight: "100vh",
         display: "flex",
@@ -13,15 +13,15 @@ export default function Home() {
         padding: "40px 20px",
       }}
     >
-      <div>
+      <div style={{ maxWidth: "700px" }}>
         <h1
           style={{
             fontSize: "4rem",
             marginBottom: "1rem",
-            letterSpacing: "2px",
-            color: "#c6a85a",
+            letterSpacing: "3px",
+            color: "#b8963f",
             fontWeight: 600,
-            textShadow: "0 0 20px rgba(198,168,90,0.25)",
+            textShadow: "0 0 12px rgba(184, 150, 63, 0.18)",
           }}
         >
           VELORA AI
@@ -29,10 +29,11 @@ export default function Home() {
 
         <p
           style={{
-            opacity: 0.85,
-            marginBottom: "2rem",
-            fontSize: "1.1rem",
-            letterSpacing: "0.3px",
+            opacity: 0.82,
+            marginBottom: "2.2rem",
+            fontSize: "1.05rem",
+            letterSpacing: "0.2px",
+            color: "#e8e8e8",
           }}
         >
           Luxury automation systems for modern businesses.
@@ -44,14 +45,14 @@ export default function Home() {
           rel="noopener noreferrer"
           style={{
             display: "inline-block",
-            padding: "14px 30px",
+            padding: "14px 34px",
             borderRadius: "999px",
-            background: "linear-gradient(135deg, #c6a85a, #e6c878)",
-            color: "#000",
+            background: "linear-gradient(135deg, #b8963f, #d2b56b)",
+            color: "#111",
             textDecoration: "none",
             fontWeight: 600,
-            boxShadow: "0 10px 30px rgba(198,168,90,0.25)",
-            transition: "0.3s ease",
+            letterSpacing: "0.3px",
+            boxShadow: "0 8px 24px rgba(184, 150, 63, 0.22)",
           }}
         >
           Get Started →
