@@ -13,8 +13,11 @@ export default function Home() {
       }}
     >
       <div>
-        <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
-          Velora AI LIVE
+<img 
+  src="/velora-logo.png" 
+  alt="Velora AI Logo" 
+  style={{ width: "220px", marginBottom: "20px" }} 
+/>
         </h1>
 
         <p style={{ opacity: 0.7, marginBottom: "2rem" }}>
