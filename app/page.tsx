@@ -9,17 +9,31 @@ export default function Home() {
         alignItems: "center",
         justifyContent: "center",
         textAlign: "center",
-        fontFamily: "Helvetica, sans-serif",
+        fontFamily: "Helvetica, Arial, sans-serif",
+        padding: "40px 20px",
       }}
     >
       <div>
-<img 
-  src="/velora-logo.png" 
-  alt="Velora AI Logo" 
-  style={{ width: "220px", marginBottom: "20px" }} 
-/>
+        <h1
+          style={{
+            fontSize: "4rem",
+            marginBottom: "1rem",
+            letterSpacing: "2px",
+            color: "#d4af37",
+            fontWeight: 700,
+          }}
+        >
+          VELORA AI
+        </h1>
 
-         <p style={{ opacity: 0.7, marginBottom: "2rem" }}>
+        <p
+          style={{
+            opacity: 0.85,
+            marginBottom: "2rem",
+            fontSize: "1.1rem",
+            letterSpacing: "0.3px",
+          }}
+        >
           Luxury automation systems for modern businesses.
         </p>
 
@@ -29,13 +43,13 @@ export default function Home() {
           rel="noopener noreferrer"
           style={{
             display: "inline-block",
-            padding: "12px 24px",
+            padding: "14px 30px",
             borderRadius: "999px",
-            backgroundColor: "white",
-            color: "black",
+            backgroundColor: "#d4af37",
+            color: "#000",
             textDecoration: "none",
-            border: "1px solid black",
-            cursor: "pointer",
+            fontWeight: 600,
+            boxShadow: "0 0 30px rgba(212, 175, 55, 0.2)",
           }}
         >
           Get Started →
