@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main
       style={{
-        backgroundColor: "#0a0a0a",
+        background: "radial-gradient(circle at center, #111 0%, #000 100%)",
         color: "#fff",
         minHeight: "100vh",
         display: "flex",
@@ -19,8 +19,9 @@ export default function Home() {
             fontSize: "4rem",
             marginBottom: "1rem",
             letterSpacing: "2px",
-            color: "#d4af37",
-            fontWeight: 700,
+            color: "#c6a85a",
+            fontWeight: 600,
+            textShadow: "0 0 20px rgba(198,168,90,0.25)",
           }}
         >
           VELORA AI
@@ -45,11 +46,12 @@ export default function Home() {
             display: "inline-block",
             padding: "14px 30px",
             borderRadius: "999px",
-            backgroundColor: "#d4af37",
+            background: "linear-gradient(135deg, #c6a85a, #e6c878)",
             color: "#000",
             textDecoration: "none",
             fontWeight: 600,
-            boxShadow: "0 0 30px rgba(212, 175, 55, 0.2)",
+            boxShadow: "0 10px 30px rgba(198,168,90,0.25)",
+            transition: "0.3s ease",
           }}
         >
           Get Started →
